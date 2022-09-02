@@ -1,0 +1,18 @@
+{
+  "name": "smart-contract",
+  "version": "1.0.0",
+  "description": "Learn how to make smart contracts",
+  "main": "index.js",
+  "scripts": {
+    "deploy": "node scripts/deploy.js --network georli"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^1.0.1",
+    "hardhat": "^2.10.2"
+  },
+  "dependencies": {
+    "@protofire/subgraph-toolkit": "^0.1.2"
+  }
+}
